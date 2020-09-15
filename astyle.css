@@ -1,0 +1,59 @@
+body {
+    background-image: url("achtergrond.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#menu {
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    border: 3px solid yellow;
+    padding: 10px;
+}
+
+.menuknop {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+
+.title {
+    color: yellow;  
+    font-family: 'Franklin Gothic Medium';            
+    width: 100%;
+    height: 100px;
+    background:none;
+    position: absolute;
+    font-size: 50px;
+
+    }
+
+    div.images {
+        position: relative;
+        margin-top: -400px;
+        left: -700px
+    }
+    .image1 {
+        position: absolute;
+        margin-top: -100px;
+        left: 5px;
+    }
+    

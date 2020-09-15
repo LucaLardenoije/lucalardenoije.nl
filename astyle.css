@@ -21,6 +21,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 
+
 }
 
 .active {
@@ -56,4 +57,7 @@ body {
         margin-top: -100px;
         left: 5px;
     }
-    
+
+    .menuknop:hover {
+        color: orange;
+    }

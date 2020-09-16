@@ -59,7 +59,7 @@ div.images {
     }
 
 .menuknop:hover {
-        color: orange;
+        color: yellow;
     }
 
 
@@ -67,11 +67,31 @@ div.images {
     color: white;
     font-family:'Franklin Gothic Medium';
     width: 200px;
-    height: 400px;
+    height: 200px;
     background: black;
     position: absolute;
     font-size: 15px;
     margin-left: -10px;
-    margin-top: 190px;
+    margin-top: 450px;
+
+    }
+
+    .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 15px;
+
+    }
+    .text {
+        margin-top: -40px;
+        margin-left: 1400px;
+        color: black;
+        font-family: 'Franklin Gothic Medium';
 
     }

@@ -1,3 +1,5 @@
+
+/*Achtergrond*/
 body {
     background-image: url("achtergrond.jpg");
     background-repeat: no-repeat;
@@ -5,9 +7,10 @@ body {
     background-size: cover;
     text-align: center;
     width: 100%;
-    height: 100%;
-}
-#menu {
+    height: 100%;}
+
+/*Hoofdmenu*/
+    #menu {
     margin: auto;
     margin-top: 50px;
     width: 60%;
@@ -28,6 +31,7 @@ body {
 
 }
 
+/*actief*/
 .active {
     color: red;
     text-decoration: none;
@@ -39,7 +43,7 @@ body {
    
 }
 
-
+/*titel*/
 .title {
     color: yellow;  
     font-family: 'Franklin Gothic Medium';            
@@ -51,6 +55,7 @@ body {
 
     }
 
+    /*afbeeldingen*/
 div.images {
         position: relative;
         margin-top: -400px;
@@ -72,12 +77,12 @@ div.images {
         right: 0px;
     }
 
-
+/*Hover*/
 .menuknop:hover {
         color: yellow;
     }
 
-
+/*changelog*/
 .changelog {
     color: white;
     font-family:'Franklin Gothic Medium';
@@ -91,6 +96,7 @@ div.images {
 
     }
 
+    /*footers*/
 .footer {
         position: absolute;
         left: 0px;
@@ -123,6 +129,7 @@ div.images {
     }
     
     
+    /*tekst*/
 .text {
         margin-top: 0px;
         margin-left: 0px;
@@ -131,6 +138,7 @@ div.images {
 
     }
 
+    /*knoppen*/
 .btn {
         background-color: none;
         position: absolute;
@@ -141,6 +149,7 @@ div.images {
 
     }
 
+    /*header*/
 .header {
         width: 100%;
         text-align: center;
@@ -154,6 +163,7 @@ div.images {
 
     }
 
+    /*text-over-mij*/
 .textovermij {
         background-color: none;
         position: absolute;
@@ -162,6 +172,7 @@ div.images {
         font-family: 'Franklin Gothic Medium';
     }
 
+    /*text=portofolio*/
 .textporto {
     background-color: transparent;
     position: absolute;
@@ -173,6 +184,7 @@ div.images {
     top: 200px;
 }
 
+/*Knop2*/
 .btn2 {
     background-color: none;
     position: absolute;
@@ -182,6 +194,7 @@ div.images {
     cursor: pointer;
 }
 
+/*comingsoontekst*/
 .comingsoon {
     position: absolute;
     text-align: center;

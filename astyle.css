@@ -1,7 +1,11 @@
 body {
     background-image: url("achtergrond.jpg");
+    background-repeat: no-repeat;
+    overflow-x: hidden;
     background-size: cover;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 #menu {
     margin: auto;
@@ -62,6 +66,12 @@ div.images {
         left: 20px;
     }
 
+    .image3 {
+        position: absolute;
+        margin-top: -100px;
+        right: 0px;
+    }
+
 
 .menuknop:hover {
         color: yellow;
@@ -81,7 +91,7 @@ div.images {
 
     }
 
-    .footer {
+.footer {
         position: absolute;
         left: 0px;
         bottom: 0px;
@@ -94,7 +104,7 @@ div.images {
 
     }
 
-    .footer2 {
+.footer2 {
         right: 0px;
         bottom: 0px;
         position: absolute;
@@ -103,7 +113,7 @@ div.images {
         font-size: 15px;
     }
 
-    .footer3 {
+ .footer3 {
         left: 20px;
         bottom: 0px;
         position: absolute;
@@ -113,7 +123,7 @@ div.images {
     }
     
     
-    .text {
+.text {
         margin-top: 0px;
         margin-left: 0px;
         color: black;
@@ -121,7 +131,7 @@ div.images {
 
     }
 
-    .btn {
+.btn {
         background-color: none;
         position: absolute;
         left: 0px;
@@ -130,3 +140,44 @@ div.images {
         cursor: pointer;
 
     }
+
+.header {
+        width: 100%;
+        text-align: center;
+        background-color: none;
+        color: yellow;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 10px;
+        position: absolute;
+        top: 0px;
+
+
+    }
+
+.textovermij {
+        background-color: none;
+        position: absolute;
+        text-align: center;
+        color: yellow;
+        font-family: 'Franklin Gothic Medium';
+    }
+
+.textporto {
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    color: yellow;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    top: 200px;
+}
+
+.btn2 {
+    background-color: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 28px 52px;
+    cursor: pointer;
+}

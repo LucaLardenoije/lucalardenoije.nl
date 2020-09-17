@@ -181,3 +181,13 @@ div.images {
     padding: 28px 52px;
     cursor: pointer;
 }
+
+.comingsoon {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 700px;
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}

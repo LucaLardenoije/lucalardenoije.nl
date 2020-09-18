@@ -7,7 +7,8 @@ body {
     background-size: cover;
     text-align: center;
     width: 100%;
-    height: 100%;}
+    height: 100%;
+}
 
 /*Hoofdmenu*/
     #menu {
@@ -20,7 +21,7 @@ body {
 
 .menuknop {
     color: white;
-    font-size: 25px;
+    font-size: 1.6vw;
     font-family: 'Franklin Gothic Medium';
     text-align: center;
     display: inline-block;
@@ -36,7 +37,7 @@ body {
     color: red;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
+    font-size: 1.6vw;
     display: inline-block;
     margin-left: 50px;
     margin-right: 50px;
@@ -51,7 +52,7 @@ body {
     height: 100px;
     background:none;
     position: absolute;
-    font-size: 50px;
+    font-size: 4vw;
 
     }
 
@@ -65,16 +66,19 @@ div.images {
         position: absolute;
         margin-top: -100px;
         left: 5px;
+        max-width: 100%; height: auto;
     }
     .image2 {
         bottom: 0px;
         left: 20px;
+        max-width: 100%; height: auto;
     }
 
     .image3 {
         position: absolute;
         margin-top: -100px;
-        right: 0px;
+        right: -120px;
+        max-width: 100%; height: auto;
     }
 
 /*Hover*/
@@ -90,10 +94,9 @@ div.images {
     height: 200px;
     background: black;
     position: absolute;
-    font-size: 15px;
     margin-left: -10px;
     margin-top: 400px;
-
+    font-size: 1vw;
     }
 
     /*footers*/
@@ -106,7 +109,7 @@ div.images {
         color: black;
         text-align: center;
         font-family: 'Franklin Gothic Medium';
-        font-size: 15px;
+        font-size: 1vw;
 
     }
 
@@ -116,7 +119,7 @@ div.images {
         position: absolute;
         background-color: yellow;
         font-family: 'Franklin Gothic Medium';
-        font-size: 15px;
+        font-size: 1vw;
     }
 
  .footer3 {
@@ -125,7 +128,7 @@ div.images {
         position: absolute;
         background-color: yellow;
         font-family: 'Franklin Gothic Medium';
-        font-size: 15px;
+        font-size: 1vw;
     }
     
     
@@ -135,7 +138,7 @@ div.images {
         margin-left: 0px;
         color: black;
         font-family: 'Franklin Gothic Medium';
-
+        font-size: 1vw;
     }
 
     /*knoppen*/
@@ -146,7 +149,7 @@ div.images {
         bottom: 0px;
         padding: 28px 20px;
         cursor: pointer;
-
+        font-size: 1vw;
     }
 
     /*header*/
@@ -156,10 +159,9 @@ div.images {
         background-color: none;
         color: yellow;
         font-family: 'Franklin Gothic Medium';
-        font-size: 10px;
         position: absolute;
         top: 0px;
-
+        font-size: 1vw;
 
     }
 
@@ -170,6 +172,7 @@ div.images {
         text-align: center;
         color: yellow;
         font-family: 'Franklin Gothic Medium';
+        font-size: 2vw;
     }
 
     /*text=portofolio*/
@@ -180,17 +183,17 @@ div.images {
     color: yellow;
     width: 100%;
     font-family: 'Franklin Gothic Medium';
-    font-size: 20px;
+    font-size: 1vw;
     top: 200px;
 }
 
 /*Knop2*/
 .btn2 {
     background-color: none;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    padding: 28px 52px;
+    position: relative;
+    right: -200px;
+    top: -34px;
+    padding: 28px 100px;
     cursor: pointer;
 }
 
@@ -201,6 +204,7 @@ div.images {
     top: 300px;
     left: 700px;
     color: yellow;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: 'Franklin Gothic Medium';
+
 }

@@ -205,6 +205,21 @@ header nav ul li a {
     
 }
 
+.active {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
+    display: inline-block;
+   
+}
+
+.menuknop:hover {
+    color: purple;
+    font-size: 26px;
+}
+
+
 @media only screen and (min-width: 1000px) {
     .index-banner {
         width: 100%;
@@ -284,5 +299,11 @@ footer ul li a {
     float: left;
 }
 
-
-/*Desktop versie*/
+.contact {
+    top: 500px;
+    left: 400px;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}

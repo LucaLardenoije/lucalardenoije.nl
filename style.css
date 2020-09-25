@@ -66,7 +66,7 @@ table {
         display: block;
         margin: 0 auto;
         text-align: center;
-        padding: 20px 0px
+        padding: 20px 0px;
 
     }
 
@@ -102,6 +102,7 @@ table {
         font-size: 6px;
         float: left;
     }
+    
       
 }
 
@@ -359,13 +360,13 @@ table {
     color: rgb(83, 83, 83);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium';
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
    
 }
 
     .menuknop:hover {
-      font-size: 24px;
+      font-size: 20px;
       color: purple;
       display: inline-block;
     }

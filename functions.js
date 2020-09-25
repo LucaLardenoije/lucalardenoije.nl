@@ -1,0 +1,1 @@
+alert("Sorry! Deze pagina is privé, om de pagina te kunnen zien moet u een mail sturen naar: 501121@vistacollege.nl");
